@@ -6,7 +6,7 @@ const Holdings = () => {
   const [allHoldings, setAllHoldings] = useState([]);
 
   useEffect(() => {
-    axios.get("http://localhost:8080/allHoldings").then((res) => {
+    axios.get("https://astra-trade-lyly.onrender.com/allHoldings").then((res) => {
       const sortedData = res.data.sort((a, b) => a.name.localeCompare(b.name));
       setAllHoldings(sortedData);
     });

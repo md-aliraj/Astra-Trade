@@ -7,11 +7,11 @@ const Summary = () => {
   const [funds, setFunds] = useState(0); 
 
   useEffect(() => {
-    axios.get("http://localhost:8080/allHoldings").then((res) => {
+    axios.get("https://astra-trade-lyly.onrender.com/allHoldings").then((res) => {
       setHoldings(res.data);
     });
 
-    axios.get("http://localhost:8080/userFunds").then((res) => {
+    axios.get("https://astra-trade-lyly.onrender.com/userFunds").then((res) => {
       setFunds(res.data.margin || 0); 
     });
   }, []);

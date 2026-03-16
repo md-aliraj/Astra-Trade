@@ -11,7 +11,7 @@ const Orders = () => {
   }, []);
 
   const fetchOrders = () => {
-    axios.get("http://localhost:8080/allOrders").then((res) => {
+    axios.get("https://astra-trade-lyly.onrender.com/allOrders").then((res) => {
       setAllOrders(res.data);
     });
   };
@@ -19,7 +19,7 @@ const Orders = () => {
   const handleDelete = async (id) => {
     if (window.confirm("Are you sure you want to delete this order?")) {
       try {
-        await axios.delete(`http://localhost:8080/deleteOrder/${id}`);
+        await axios.delete(`https://astra-trade-lyly.onrender.com/deleteOrder/${id}`);
         setAllOrders(allOrders.filter((order) => order._id !== id));
         alert("Order Deleted Successfully!");
       } catch (err) {
@@ -35,7 +35,7 @@ const Orders = () => {
 
   const handleSave = async (id) => {
     try {
-      await axios.put(`http://localhost:8080/updateOrder/${id}`, editData);
+      await axios.put(`https://astra-trade-lyly.onrender.com/updateOrder/${id}`, editData);
       setEditingId(null);
       fetchOrders();
       alert("Order Updated Successfully!");

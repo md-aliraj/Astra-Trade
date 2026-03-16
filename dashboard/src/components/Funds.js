@@ -11,7 +11,7 @@ const Funds = () => {
   useEffect(() => {
     const fetchFunds = async () => {
       try {
-        const res = await axios.get("http://localhost:8080/userFunds");
+        const res = await axios.get("https://astra-trade-lyly.onrender.com/userFunds");
         const currentFunds = res.data.margin || 0;
         setAvailableMargin(currentFunds);
         setOpeningBalance(currentFunds);
@@ -36,7 +36,7 @@ const Funds = () => {
 
     try {
       const finalAmount = isWithdraw ? -amount : amount;
-      await axios.post("http://localhost:8080/addFunds", { amount: finalAmount });
+      await axios.post("https://astra-trade-lyly.onrender.com/addFunds", { amount: finalAmount });
       alert(isWithdraw ? "Withdrawal Successful!" : "Funds Added!");
       
       setInputAmount("");

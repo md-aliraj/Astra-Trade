@@ -9,7 +9,7 @@ function Login() {
     const handleLogin = async (e) => {
     e.preventDefault();
     try {
-        const res = await axios.post("http://localhost:8080/login", { email, password });
+        const res = await axios.post("https://astra-trade-lyly.onrender.com/login", { email, password });
         
        const userName = res.data.user || "Guest"
         

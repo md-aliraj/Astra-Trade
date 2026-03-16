@@ -22,7 +22,7 @@ const BuyActionWindow = ({ uid, mode = "BUY", price }) => {
   const handleOrderClick = (e) => {
     e.preventDefault();
 
-    axios.post("http://localhost:8080/newOrder", {
+    axios.post("https://astra-trade-lyly.onrender.com/newOrder", {
       name: uid,
       qty: Number(stockQuantity),
       price: Number(stockPrice),

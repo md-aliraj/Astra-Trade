@@ -12,7 +12,7 @@ function Signup() {
     const handleSignup = async (e) => {
         e.preventDefault();
         try {
-            await axios.post("http://localhost:8080/signup", { fullName, email, password });
+            await axios.post("https://astra-trade-lyly.onrender.com/signup", { fullName, email, password });
             alert("Signup Successful! Please Login.");
             navigate("/login"); 
         } catch (err) {
