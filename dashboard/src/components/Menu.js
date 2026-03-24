@@ -22,7 +22,7 @@ const Menu = () => {
 
   const handleLogout = () => {
     localStorage.removeItem("user");
-    window.location.href = "http://localhost:3001";
+    window.location.href = "https://astra-trade-lnxv.vercel.app/";
   };
 
   const menuClass = "menu";

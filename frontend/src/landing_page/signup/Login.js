@@ -15,7 +15,7 @@ function Login() {
         
         alert("Login Successful!");
 
-        window.location.href = `http://localhost:3000?user=${userName}`; 
+        window.location.href = `https://astra-trade-lnxv.vercel.app/?user=${userName}`; 
         
     } catch (err) {
         alert("Invalid Email or Password!");
