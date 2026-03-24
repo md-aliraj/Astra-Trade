@@ -53,7 +53,7 @@ function PricingPage() {
       />
       <p className="text-center" style={{marginTop: "50px", fontSize: "20px"}}>
         Want to know more about our technology stack? Check out the 
-        <a href="/" style={{textDecoration: "none"}}> Zerodha.tech </a> blog.
+        <a href="/" style={{textDecoration: "none"}}> Astra Trade.tech </a> blog.
       </p>
       <Universe />
     </>

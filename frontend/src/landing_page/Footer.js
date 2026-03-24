@@ -6,9 +6,9 @@ function Footer() {
        <div className='container border-top mt-5'>
          <div  className='row mt-5'>
             <div className='col'>
-                <img src='media/images/logo.svg' alt='logo' style={{width:"50%"}}/>
+                <h1 style={{color: "#387ed1", fontWeight: "bold", fontSize: "2rem"}}>ASTRA TRADE</h1>
                 <p>
-                   &copy; 2010 - 2025, Zerodha Broking Ltd. All rights reserved. 
+                   &copy; 2010 - 2025, Astra Trade Broking Ltd. All rights reserved. 
                 </p>                                                                         '
                 <i class="fa-brands fa-github fs-4" style={{marginRight: "20px"}}></i>
                 <i class="fa-brands fa-linkedin fs-4"></i>
@@ -23,9 +23,9 @@ function Footer() {
                  <br/>
                  <a href='/' className="text-muted" style={{textDecoration: "none"}}>Careers</a>
                  <br/>
-                 <a href='/' className="text-muted" style={{textDecoration: "none"}}>Zerodha Cares (CSR)</a>
+                 <a href='/' className="text-muted" style={{textDecoration: "none"}}>Astra Trade Cares (CSR)</a>
                  <br/>
-                 <a href='/' className="text-muted" style={{textDecoration: "none"}}>Zerodha.tech</a>
+                 <a href='/' className="text-muted" style={{textDecoration: "none"}}>Astra Trade.tech</a>
                  <br/>
                  <a href='/' className="text-muted" style={{textDecoration: "none"}}>Open source</a>
             </div>
@@ -67,7 +67,7 @@ function Footer() {
             </div>
          </div>
          <div className='mt-5 text-muted' style={{fontSize: "14px"}}>
-         <p>Zerodha Broking Ltd.: Member of NSE, BSE​ &​ MCX – SEBI Registration no.: INZ000031633 CDSL/NSDL: Depository services through Zerodha Broking Ltd. – SEBI Registration no.: IN-DP-431-2019 Registered Address: Zerodha Broking Ltd., #153/154, 4th Cross, Dollars Colony, Opp. Clarence Public School, J.P Nagar 4th Phase, Bengaluru - 560078, Karnataka, India. For any complaints pertaining to securities broking please write to complaints@zerodha.com, for DP related to dp@zerodha.com. Please ensure you carefully read the Risk Disclosure Document as prescribed by SEBI | ICF</p>
+         <p>Astra Trade Broking Ltd.: Member of NSE, BSE​ &​ MCX – SEBI Registration no.: INZ000031633 CDSL/NSDL: Depository services through Astra Trade Broking Ltd. – SEBI Registration no.: IN-DP-431-2019 Registered Address: Astra Trade Broking Ltd., #153/154, 4th Cross, Dollars Colony, Opp. Clarence Public School, J.P Nagar 4th Phase, Bengaluru - 560078, Karnataka, India. For any complaints pertaining to securities broking please write to complaints@zerodha.com, for DP related to dp@zerodha.com. Please ensure you carefully read the Risk Disclosure Document as prescribed by SEBI | ICF</p>
 
 <p>Procedure to file a complaint on SEBI SCORES: Register on SCORES portal. Mandatory details for filing complaints on SCORES: Name, PAN, Address, Mobile Number, E-mail ID. Benefits: Effective Communication, Speedy redressal of the grievances</p>
 
